@@ -15,8 +15,8 @@ export default function Header() {
               </svg>
             </Link>
           </div>
-{/* 
-          <nav className="hidden md:flex md:grow">
+
+          {/* <nav className="hidden md:flex md:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link

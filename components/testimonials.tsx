@@ -4,6 +4,7 @@ import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
 import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 
+
 export default function Testimonials() {
   return (
     <section>
@@ -67,6 +68,25 @@ export default function Testimonials() {
               </div>
             </div>
 
+          </div>
+          
+{/* Users on board section */}
+<div className="mt-16 text-center">
+            <h2 className="h2 mb-4">Usuarios a bordo</h2>
+            <div className="flex justify-center items-center space-x-8">
+              <div>
+                <Image className="rounded-full" src={TestimonialImage01} width={64} height={64} alt="User 01" />
+                <p className="text-gray-400 mt-2">Usuario 01</p>
+              </div>
+              <div>
+                <Image className="rounded-full" src={TestimonialImage02} width={64} height={64} alt="User 02" />
+                <p className="text-gray-400 mt-2">Usuario 02</p>
+              </div>
+              <div>
+                <Image className="rounded-full" src={TestimonialImage03} width={64} height={64} alt="User 03" />
+                <p className="text-gray-400 mt-2">Usuario 03</p>
+              </div>
+            </div>
           </div>
 
         </div>
